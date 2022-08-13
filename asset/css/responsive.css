@@ -1,0 +1,21 @@
+@media (max-width: 1300px) {}
+@media (max-width: 1120px){}
+@media (max-width: 992px){
+.menu_logo{
+    width: 30px;
+    height: auto;
+    display: block;
+}
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 576px){
+    .header-logo, .mujib-logo{
+        display: none;
+    }
+}
+@media (max-width: 480px){}
+@media (max-width: 420px) {}
+@media (max-width: 376px){}
+@media (min-width: 1200px){}
