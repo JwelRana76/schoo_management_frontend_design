@@ -52,6 +52,10 @@ body{
 .news-ticker marquee{
     line-height: 40px;
     color: white;
+    display: block;
+}
+.news-ticker marquee p{
+    display: inline-block;
 }
 
 /* navbar style */
