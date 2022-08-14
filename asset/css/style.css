@@ -5,6 +5,7 @@ body{
 .header-logo img{
     width: 70%;
     display: block;
+    margin: 0 auto;
 }
 .mujib-logo img{
     width: 100%;
@@ -59,6 +60,11 @@ body{
 }
 
 /* navbar style */
+.navbar{
+    position: sticky;
+    z-index: 11;
+    top: 0;
+}
 .menu_logo{
     display: none;
 }
@@ -81,14 +87,14 @@ nav ul li a{
     display: none;
 }
 .adminstration-sub-menu ul{
-    padding: 0px 10px;
+    padding: 0px;
     display: block;
     width: 200px;
 }
 .adminstration-sub-menu ul li{
     list-style: none;
     display: block;
-    padding: 10px 0px;
+    padding: 10px 15px;
     border-bottom: 1px solid #808080;
 }
 .adminstration-sub-menu ul li a{
