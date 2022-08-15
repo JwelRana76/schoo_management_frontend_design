@@ -127,10 +127,12 @@ nav ul li a{
 .card-header h1{
     font-size: 1.25rem;
     color: white;
+    margin: 0px !important;
 }
 .card-footer h1{
     font-size: 1rem;
     color: white;
+    margin: 0px !important;
 }
 /* middle section */
 .middle-section h2{
